@@ -1,0 +1,228 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: url("img/asanoha.png")  fixed ;
+}
+.parallax {
+    /* The image used */
+    background-image:url("img/parallax1.jpeg");
+
+    /* Set a specific height */
+    min-height:1000px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.two{
+  background-image: url("img/parallax2.jpg");
+  background-position: center top;
+}
+.three{
+  background-image: url("img/parallax3.jpg");
+  background-position: center top;
+}
+.four{
+  background-image: url("img/parallax4.jpg");
+  background-position: center top;
+}
+.five{
+  background-image: url("img/parallax5.jpg");
+  background-position: center top;
+}
+.six{
+  background-image: url("img/parallax6.jpg");
+  background-position: center top;
+}
+.seven{
+  background-image: url("img/parallax7.jpg");
+  background-position: center top;
+}
+.eight{
+  background-image: url("img/parallax8.jpg");
+  background-position: center top;
+}
+.nine{
+  background-image: url("img/parallax9.jpg");
+  background-position: center top;
+}
+.ten{
+  background-image: url("img/parallax10.jpg");
+  background-position: center top;
+}
+.eleven{
+  background-image: url("img/parallax11.jpg");
+  background-position: center top;
+}
+.intromain{
+  height: 650px;
+  background-color: rgba(176,224,230,.2);
+  font-size:42px;
+}
+.intromain_text{
+  position: relative;
+  top:175px;
+  left: 50px;
+}
+.intro{
+  clear: both;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  background-color: rgba(123,104,238,.2);
+  height:500px;
+  font-size:56px;
+  }
+.introtext{
+  position: relative;
+  top:200px;
+  left:200px;
+  font-weight: 600;
+}
+.info{
+  height:1000px;
+  width: 100%;
+  font-family: 'PT Serif',serif;
+  font-size:26px;
+  background-color: rgba(123,104,238,.2);
+
+}
+.infotext{
+
+  top:300px;
+  left:250px;
+  width:600px;
+  line-height:28px;
+  font-weight: lighter;
+  text-indent: 50px;
+
+}
+
+.edu{
+  background-color: rgba(220,20,60,.2);
+}
+.exp{
+  background-color: rgba(128,128,0,.2);
+}
+.skills{
+  background-color: rgba(112,128,144,.2);
+}
+.contact{
+  background-color: rgba(255,215,0,.2);
+  }
+  .title{
+    font-weight: bold;
+    font-size: 30px;
+    text-indent: 0px;
+  }
+  h5{
+    text-indent: 0px;
+  }
+ .greeting {
+    transform: translate(-50%, -50%);}
+
+
+
+
+
+
+
+
+
+
+
+
+.section {
+    clear: both;
+    width: 100%;
+    height: 1000px;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.section:nth-child(even) {
+    color: #220044;
+}
+
+.section:nth-child(odd) {
+    background: #220044;
+    color: white;
+}
+
+.section-0 {
+    text-align: center;
+}
+
+.section-0 h1 {
+    font-size: 7em;
+    line-height: 1em;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.section-0 h2 {
+    font-size: 4em;
+    line-height: 1em;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.section-1 .slide-in-demo {
+    position: absolute;
+    top: 30%;
+    padding:75px;
+    width: 500px;
+    right: 0;
+    font-family: 'PT Serif';
+    text-align: left;
+    font-size:26px;
+    line-height:28px;
+    text-indent: 50px;
+
+}
+
+.section-2 .reveal-demo {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size:26px;
+
+}
+
+.section-3 .text-wrapper {
+    max-width: 300px;
+    margin:;
+    font-size:56px;
+    position: relative;
+    top:200px;
+    left:200px;
+    line-height:28px;
+    font-family: 'Raleway';
+    font-weight:bold;
+
+
+
+}
+
+.section-3 .text-wrapper span {
+    opacity: 0;
+    -webkit-transition: opacity 0.2s;
+}
+
+.section-3 .text-wrapper span.visible {
+    opacity: 1;
+}
